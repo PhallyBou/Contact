@@ -1,0 +1,50 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+    h1 {
+    color: #000;
+    text-align: center;
+}
+
+fieldset {
+    max-width: 600px;
+    background-color: #b5b7ba;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0 5px 5px;
+    margin: 10px 0;
+}
+
+#submit-btn {
+    display: block;
+    width: unset;
+    background-color: #fff;
+    padding: 5px 15px;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 5px;
+    margin: 10px auto;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 0;
+}
